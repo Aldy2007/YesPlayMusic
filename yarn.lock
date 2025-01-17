@@ -13303,6 +13303,11 @@ vue-clipboard2@^0.3.1:
   dependencies:
     clipboard "^2.0.0"
 
+vue-cookies@^1.8.5:
+  version "1.8.5"
+  resolved "https://registry.npmmirror.com/vue-cookies/-/vue-cookies-1.8.5.tgz#dc8e02919d378e23dd6571fcc5f8c4cfd41175f6"
+  integrity sha512-7BbERTTMntFq+sGIcQYCoANjb3aAEgFx0/9wpyC5EoJo5FAStdJO+/i/zzZwHCix11sQgCQKiCHa/kJ8dt/N3w==
+
 vue-eslint-parser@^7.10.0:
   version "7.11.0"
   resolved "https://registry.npmjs.org/vue-eslint-parser/-/vue-eslint-parser-7.11.0.tgz#214b5dea961007fcffb2ee65b8912307628d0daf"

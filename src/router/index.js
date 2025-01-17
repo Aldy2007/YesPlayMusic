@@ -29,6 +29,11 @@ const routes = [
     component: () => import('@/views/loginAccount.vue'),
   },
   {
+    path: '/login/cookie',
+    name: 'loginCookie',
+    component: () => import('@/views/loginCookie.vue'),
+  },
+  {
     path: '/playlist/:id',
     name: 'playlist',
     component: () => import('@/views/playlist.vue'),

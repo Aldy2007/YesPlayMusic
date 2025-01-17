@@ -34,6 +34,20 @@
           <svg-icon icon-class="arrow-right"></svg-icon>
         </div>
       </div>
+      <div
+        class="card"
+        @mouseover="activeCard = 3"
+        @mouseleave="activeCard = 0"
+        @click="goTo('cookie')"
+      >
+        <div class="container" :class="{ active: activeCard === 3 }">
+          <div class="title-info">
+            <div class="title">cookie登录</div>
+            <div class="info">{{ $t('用cookie登录') }}</div>
+          </div>
+          <svg-icon icon-class="arrow-right"></svg-icon>
+        </div>
+      </div>
     </div>
   </div>
 </template>

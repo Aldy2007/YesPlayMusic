@@ -11,6 +11,7 @@ import { dailyTask } from '@/utils/common';
 import '@/assets/css/global.scss';
 import NProgress from 'nprogress';
 import '@/assets/css/nprogress.css';
+import VueCookies from 'vue-cookies';
 
 window.resetApp = () => {
   localStorage.clear();
@@ -35,6 +36,7 @@ Vue.use(
   },
   router
 );
+Vue.use(VueCookies);
 Vue.config.productionTip = false;
 
 NProgress.configure({ showSpinner: false, trickleSpeed: 100 });

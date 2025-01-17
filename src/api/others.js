@@ -27,6 +27,15 @@ export function search(params) {
     return data;
   });
 }
+export function searchName(params) {
+  return request({
+    url: '/login/status',
+    method: 'get',
+    params,
+  }).then(data => {
+    return data;
+  });
+}
 
 export function personalFM() {
   return request({
