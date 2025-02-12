@@ -959,7 +959,7 @@ export default {
     },
     showPlaylistsByAppleMusic: {
       get() {
-        if (this.settings.showPlaylistsByAppleMusic === undefined) return true;
+        if (this.settings.showPlaylistsByAppleMusic === undefined) return false;
         return this.settings.showPlaylistsByAppleMusic;
       },
       set(value) {
