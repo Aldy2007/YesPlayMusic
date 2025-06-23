@@ -8,5 +8,8 @@
   "arrowParens": "avoid",
   "endOfLine": "lf",
   "bracketSpacing": true,
-  "htmlWhitespaceSensitivity": "strict"
+  "htmlWhitespaceSensitivity": "strict",
+  "rules":{
+    "prettier/prettier": "off"
+  }
 }

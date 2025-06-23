@@ -14,18 +14,30 @@
           $t('home.seeMore')
         }}</router-link>
       </div>
-      <CoverRow :type="'playlist'" :items="recommendPlaylist.items" sub-text="copywriter" />
+      <CoverRow
+        :type="'playlist'"
+        :items="recommendPlaylist.items"
+        sub-text="copywriter"
+      />
     </div>
     <div class="index-row">
       <div class="title">{{ $t('home.recommendArtist') }}</div>
-      <CoverRow type="artist" :column-number="6" :items="recommendArtists.items" />
+      <CoverRow
+        type="artist"
+        :column-number="6"
+        :items="recommendArtists.items"
+      />
     </div>
     <div class="index-row">
       <div class="title">
         {{ $t('home.newAlbum') }}
         <router-link to="/new-album">{{ $t('home.seeMore') }}</router-link>
       </div>
-      <CoverRow type="album" :items="newReleasesAlbum.items" sub-text="artist" />
+      <CoverRow
+        type="album"
+        :items="newReleasesAlbum.items"
+        sub-text="artist"
+      />
     </div>
     <div class="index-row">
       <div class="title">
@@ -34,7 +46,12 @@
           $t('home.seeMore')
         }}</router-link>
       </div>
-      <CoverRow type="playlist" :items="topList.items" sub-text="updateFrequency" :image-size="1024" />
+      <CoverRow
+        type="playlist"
+        :items="topList.items"
+        sub-text="updateFrequency"
+        :image-size="1024"
+      />
     </div>
   </div>
 </template>
